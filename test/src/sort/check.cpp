@@ -21,6 +21,7 @@ const size_t EVEN_ARRAY_SIZE = 10000;
 const size_t ODD_ARRAY_SIZE = EVEN_ARRAY_SIZE + 1;
 
 extern void SortBubble( std::vector< int >& v );
+extern void SortSelection( std::vector< int >& v );
 
 namespace // anonymous
 {
@@ -30,6 +31,7 @@ namespace // anonymous
 SortingChecker::SortFunction sortFunctions[] =
 {
      &SortBubble,
+     &SortSelection,
      0
 }; // SortFunction sortFunctions[]
 
