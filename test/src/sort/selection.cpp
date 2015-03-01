@@ -25,10 +25,10 @@ void SortSelection( std::vector< int >& v )
           for( size_t j = i + 1; j < v.size(); ++j )
           {
                if( v[ j ] < v[ m ] )
-                   m = j;
+                    m = j;
           }
           if( m != i ) 
-              std::swap( v[ m ], v[ i ] );
+               std::swap( v[ m ], v[ i ] );
      }
 }
 

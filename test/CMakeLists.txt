@@ -14,8 +14,9 @@ endif()
 
 set(SRCFILE
 	src/main.cpp
-        src/sort/check.cpp
         src/sort/bubble.cpp
+        src/sort/check.cpp
+        src/sort/selection.cpp
 )
 
 source_group( all FILES 
